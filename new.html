@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="new.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+   <title>NamMQI</title>
+</head>
+<body>
+    <div class="container">
+        <header>NAMMQI qabul bo'limi</header>  
+
+        <div class="input-field">
+            <label>Language</label>
+            <select required>
+                <option disabled selected>Select language</option>
+                <option>English</option>
+                <option>Russian</option>
+                <option>Uzbek</option>
+            </select>
+        </div>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Name</label>
+                            <input type="text" placeholder="Enter your name">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Surname</label>
+                            <input type="text" placeholder="Enter your surname">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Middle name</label>
+                            <input type="text" placeholder="Enter your middle name">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Passport series and number:</label>
+                            <input type="text" placeholder="Enter your Passport detail">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Passport picture</label>
+                            <input type="file">
+                        </div>
+
+                        <div class="input-field">
+                            <label>3x4 photo</label>
+                            <input type="file">
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <div class="details ID">
+                    <span class="title">Residential address</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Country</label>
+                            <input type="text" placeholder="Enter your country">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Region</label>
+                            <input type="text" placeholder="Enter your region">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Home address</label>
+                            <input type="text" placeholder="Enter your home address">
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="details address">
+                    <span class="title">The field of education</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Diploma number</label>
+                            <input type="text" placeholder="Enter your diploma number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Name of University</label>
+                            <input type="text" placeholder="Enter your University" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Year of graduation</label>
+                            <input type="date" placeholder="Enter your state" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Form of education</label>
+                            <select required>
+                                <option disabled selected>Select education field</option>
+                                <option>Kunduzgi</option>
+                                <option>Sirtqi</option>
+                                
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>University field of education</label>
+                            <select required>
+                                <option disabled selected>Select education field</option>
+                                <option>Kunduzgi</option>
+                                <option>Sirtqi</option>
+                                
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Diploma file</label>
+                            <input type="file" required>
+                        </div>
+                    </div>
+
+                    <div class="details family">
+                        <span class="title">Contact information</span>
+
+                        <div class="fields">
+                            <div class="input-field">
+                                <label>Phone number</label>
+                                <input type="number" placeholder="Enter your phonenumber" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Home phonenumber</label>
+                                <input type="text" placeholder="Enter your home phonenumber" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>email <address></address></label>
+                                <input type="email" placeholder="Enter your email" required>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+
+                   <button class="sumbit">
+                            <span class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+    <script src="new.js"></script>
+</body>
+</html>
